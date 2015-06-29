@@ -1,0 +1,11 @@
+<div class="problem">
+  <p><%= problem.escape('title') %></p>
+  <p><%= marked(problem.get('description')) %></p>
+</div>
+
+<div class="hints"></div>
+
+<a class='show-answer'>Show Answer</a>
+<div class="answers hide"></div>
+
+<hr>

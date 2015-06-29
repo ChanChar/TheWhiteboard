@@ -1,0 +1,39 @@
+.problem-sets {
+  button {
+    width: 80%;
+    background-color: #EEEEEE;
+    color: #3498DB;
+    border: 2px solid #3498DB;
+    font-size: 1.5em;
+    font-family: 'Lato', sans-serif;
+
+    &:hover{
+      background-color: #3498DB;
+      color: #EEEEEE
+    }
+
+  }
+
+  .button-active {
+    background-color: #3498DB;
+    color: #EEEEEE
+  }
+
+  .answer-button-a, .answer-button-b {
+
+  }
+
+  .problem-set-a, .problem-set-b {
+    text-align: left;
+  }
+
+  .lang-ruby {
+    background-color: #EEEEEE;
+    border: none;
+  }
+
+}
+
+.problem-index-item {
+  display: inline-block;
+}

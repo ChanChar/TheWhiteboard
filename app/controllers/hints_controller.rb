@@ -1,2 +1,0 @@
-class HintsController < ApplicationController
-end
