@@ -1,6 +1,0 @@
-<% if current_user %>
-  <p>"Welcome <%= current_user.name %>"</p>
-  <a href="<%= current_user.github_url %>">Github</a>
-<% else %>
-  <%= link_to "Sign in with Github", "/auth/github" %>
-<% end %>
